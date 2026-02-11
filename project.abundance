@@ -154,8 +154,8 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.7095103578154426,
-      "y": 0.6732456140350878,
+      "x": 0.7090395480225988,
+      "y": 0.6271929824561404,
       "uniqueID": "id-36",
       "ioValues": [
         {
@@ -200,7 +200,8 @@
         },
         {
           "name": "xDist",
-          "ioValue": -50
+          "ioValue": -50,
+          "currentEquation": "-50"
         },
         {
           "name": "yDist",
