@@ -20,8 +20,8 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.2937853107344633,
-      "y": 0.4649122807017544,
+      "x": 0.3403954802259887,
+      "y": 0.34210526315789475,
       "uniqueID": "id-4",
       "ioValues": [
         {
@@ -31,12 +31,176 @@
         },
         {
           "name": "y length",
-          "ioValue": 180
+          "ioValue": 180,
+          "currentEquation": "180"
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.33709981167608283,
+      "y": 0.6513157894736843,
+      "uniqueID": "id-8",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 60
+        },
+        {
+          "name": "y length",
+          "ioValue": 60,
+          "currentEquation": "60"
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.44463276836158194,
+      "y": 0.6754385964912281,
+      "uniqueID": "id-12",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": -200,
+          "currentEquation": "-200"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.48305084745762705,
+      "y": 0.22807017543859648,
+      "uniqueID": "id-18",
+      "ioValues": [
+        {
+          "name": "geometry1",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "geometry2",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.5466101694915254,
+      "y": 0.8157894736842105,
+      "uniqueID": "id-22",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 60
+        },
+        {
+          "name": "y length",
+          "ioValue": 60,
+          "currentEquation": "60"
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.6139359698681733,
+      "y": 0.47149122807017546,
+      "uniqueID": "id-26",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 200,
+          "currentEquation": "200"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.5612052730696798,
+      "y": 0.19736842105263158,
+      "uniqueID": "id-32",
+      "ioValues": [
+        {
+          "name": "geometry1",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "geometry2",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.7095103578154426,
+      "y": 0.6732456140350878,
+      "uniqueID": "id-36",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 10
+        },
+        {
+          "name": "y length",
+          "ioValue": 10
         }
       ]
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-4",
+      "ap2ID": "id-18"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-8",
+      "ap2ID": "id-12"
+    },
+    {
+      "ap2Name": "geometry2",
+      "ap1ID": "id-12",
+      "ap2ID": "id-18"
+    },
+    {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-18",
+      "ap2ID": "id-32"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-22",
+      "ap2ID": "id-26"
+    },
+    {
+      "ap2Name": "geometry2",
+      "ap1ID": "id-26",
+      "ap2ID": "id-32"
+    }
+  ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
